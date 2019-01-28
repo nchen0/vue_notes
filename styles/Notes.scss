@@ -1,0 +1,15 @@
+$background-notes: rgb(61, 122, 163);
+$font-color: white;
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: minmax(200px, auto);
+
+  .notes {
+    border: 1px solid black;
+    padding-top: 20px;
+    background-color: $background-notes;
+    color: $font-color;
+  }
+}
