@@ -11,4 +11,11 @@
   padding-top: 20px;
   background-color: #3d7aa3;
   color: white;
+  width: 200px;
+}
+
+.homepage {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }

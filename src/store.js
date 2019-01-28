@@ -18,6 +18,11 @@ export const store = new Vuex.Store({
       axios.get("https://suminotes-api.herokuapp.com/").then(res => {
         context.commit("getNotes", res.data);
       });
+    },
+    postNote: function(context, payload) {
+      axios.post("https://suminotes-api.herokuapp.com/", payload).then(res => {
+        console.log("done");
+      });
     }
   }
 });

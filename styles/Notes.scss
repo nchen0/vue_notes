@@ -11,5 +11,10 @@ $font-color: white;
     padding-top: 20px;
     background-color: $background-notes;
     color: $font-color;
+    width: 200px;
   }
+}
+
+.homepage {
+  display: flex;
 }
